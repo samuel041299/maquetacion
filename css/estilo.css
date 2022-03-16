@@ -1,0 +1,104 @@
+.cabecera{
+	background-color: #529ABB;
+	text-align: center;
+	color: white;
+}
+#fonblanco{
+	text-align: center;
+	background-color: white;
+	color: black;
+
+}
+.imagenfondo{
+	text-align: center;
+	color: white;
+	background-image: url("1.1.jpg");
+	
+}
+#boton{
+	background-color: #428BCA ;
+	color: white;
+	text-align: center;
+}
+#wrap { margin:0 auto 0 auto;
+        width:500px; text-align:left;        
+        }
+#contactForm {
+	width: 500px;
+        border: 1px solid #f4fFfF;
+        padding: 15px 15px 15px 15px;
+        background-color: #f4f7f8;
+}
+#contactForm * {
+	font-family: sans-serif;
+	display: block;
+	box-sizing: border-box;
+ 
+}
+#contactForm label {
+	color: #333;
+	cursor: default;
+	margin: 15px 0 3px 0;
+}
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
+	padding: 8px;
+	border: 1px solid #CCC;
+	color: #555;
+	font-size: 1em;
+	width: 100%;
+	overflow: hidden;
+	resize: none;
+	border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+#contactForm input[type="text"]:focus, #contactForm input[type="email"]:focus, #contactForm textarea:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px #007DD7;
+	-o-box-shadow: 0px 0px 5px #007DD7;
+	-ms-box-shadow: 0px 0px 5px #007DD7;
+	-moz-box-shadow: 0px 0px 5px #007DD7;
+}
+#contactForm .caracteres, #contactForm label[for="descripcion"] {
+	display: inline-block;
+}
+
+#contactForm #enviar {
+	width: 450px;
+	border: 1px solid #428BCA;
+	cursor: pointer;
+	float: center;
+	background-color: #428BCA;
+	color: white;
+	font-size: 2em;
+	margin: 10px 0 10px 15px;
+	padding: 3px 9px;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+#contactForm #enviar:hover {
+	background-color: #428BCA;
+}
+#contactForm #enviar[disabled] {
+	background-color: #428BCA;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	cursor: default;
+}
+#contactForm #respuesta {
+	display: none;
+	padding: 6px;
+	background: #008DE4;
+	color: #FFF;
+	text-align: center;
+	margin: 10px 0;
+	border: 1px solid #0076BE;
+	cursor: pointer;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
